@@ -10,7 +10,17 @@
         crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
         <link href="custom.css" rel="stylesheet" >
-        
+        <link href="https://fonts.cdnfonts.com/css/sigmar" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/freich" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/noto-sans-ol-chiki" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/noto-kufi-arabic" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/br-segma" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/noto-serif-toto" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/albert-sans" rel="stylesheet">
+                
+                
+                
+                
         <title>Portfolio | A'ron Sagnit</title>
 </head>
 <body>
@@ -36,16 +46,16 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto text-center">
+                <ul id="navchange" class="navbar-nav ms-auto text-center">
                     <li class="nav-item">
                         <a href="about.html" class="nav-link">About</a>
                     </li>
                 
-                    <li class="nav-item">
-                        <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                    <li id="navchange" class="nav-item">
+                        <a href="portfolio.html" class="nav-link active" id="port">Portfolio</a>
                     </li>
                 
-                    <li class="nav-item">
+                    <li id="navchange" class="nav-item">
                         <a href="contact.html" class="nav-link">Contact</a>
                     </li>
                 </ul>
@@ -53,6 +63,8 @@
         </nav>
         </div>
     </header>
+
+
 <main>
   <div class="container my-3 py-md-4">
     <h1>My Portfolio</h1>
@@ -66,8 +78,8 @@
                     <h5 class="card-title">
                         Cartoon Website
                     </h5>
-                    <p class="card-text">
-                        Explore my portfolio to find a webpage entirely dedicated to David Martinez from CyberPunk: EdgeRunners. This page provides an in-depth look at the character, highlighting key aspects of David's role.
+                    <p id="desc" class="card-text">
+                        Explore my portfolio to find a webpage entirely dedicated to David Martinez from CyberPunk: EdgeRunners. This page provides an in-depth look at the character, highlighting key aspects of David's role. <br>
                     </p>
                     <a href="https://aronsagnit.github.io/WS02-MID1/" class="btn btn-outline-dark">Visit Page</a>
                 </div>
@@ -81,7 +93,7 @@
                 <h5 class="card-title">
                     Analog Website
                 </h5>
-                <p class="card-text">
+                <p id="desc" class="card-text">
                     In this project featured in my portfolio, I've developed a specialized webpage dedicated to analog enthusiasts. The platform uniquely combines a marketplace for buying analog devices with comprehensive repair services.
                 </p>
                 <a href="https://aronsagnit.github.io/Analog/" class="btn btn-outline-dark">Visit Page</a>
@@ -97,7 +109,7 @@
                 <h5 class="card-title">
                     Poetry Workshop
                 </h5>
-                <p class="card-text">
+                <p id="desc" class="card-text">
                     Explore my portfolio to discover a webpage I designed showcasing schedules for poetry workshops. This specialized platform provides easy access to upcoming events, details on each workshop, and registration information.
                 </p>
                 <a href="https://aronsagnit.github.io/Poetry-workshop/" class="btn btn-outline-dark">Visit Page</a>
