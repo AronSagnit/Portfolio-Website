@@ -78,7 +78,12 @@
         #profilepic {
             border: 1px solid black;
             margin-left: 20px;
-        }
+            transition: transform 0.3s ease-in-out;
+          }
+      
+          #profilepic:hover {
+            transform: scale(1.04); 
+          }
 
         main {
             flex: 1 0 auto;
@@ -189,8 +194,17 @@
 				display: flex;
 				justify-content: center;
 				align-items: center;
-		}
+                transition: transform 0.3s ease-in-out;
+            }
+        
+            #cardscon:hover {
+              transform: scale(1.04); 
+            }
 		
+            #footeranim:hover{
+                transition: transform 0.3s ease-in-out;
+                transform: scale(1.04);
+            }
 		#cardbtn {
 			position: relative;
 			border-top-right-radius: 10px;
